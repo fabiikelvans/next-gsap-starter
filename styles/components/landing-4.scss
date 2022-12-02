@@ -1,0 +1,103 @@
+.landing-4{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    background: #1a1810;
+
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .column{
+        width: 50%;
+        height: 100vh;
+    }
+
+    .left{
+        position: relative;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: url('https://images.unsplash.com/photo-1535579710123-3c0f261c474e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUyfHxtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60') no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    .right{
+        display: flex;
+        padding: 120px 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img{
+        width: 140px;
+        height: 200px;
+        margin: 6px;
+    }
+
+    .img-1{
+        background: url('https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat 50% 50%;
+    }
+
+    .img-2{
+        background: url('https://images.unsplash.com/photo-1524638431109-93d95c968f03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat 50% 50%;
+    }
+
+    .img-3{
+        background: url('https://images.unsplash.com/photo-1525299374597-911581e1bdef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat 50% 50%;
+    }
+
+    .img-4{
+        background: url('https://images.unsplash.com/photo-1526510747491-58f928ec870f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat 50% 50%;
+    }
+
+    .header{
+        color: #a77a3f;
+        text-transform: uppercase;
+        font-size: 40px;
+
+    }
+    .ml12{
+        position: absolute;
+        display: inline-block;
+        line-height: 1em;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    
+
+    .link a{
+        color: red;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family: serif;
+    }
+
+    @media (min-width: 900px) {
+        .container{
+            display: flex;
+        }
+
+        .images{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .column{
+            width: 100%;
+        }
+        .img{
+            width: 400px;
+            height: 400px;
+        }
+        
+    }
+}

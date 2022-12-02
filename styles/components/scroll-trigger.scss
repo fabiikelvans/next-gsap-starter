@@ -1,0 +1,49 @@
+.scroll-trigger{
+    .section{
+        height: 100vh;
+        width: 100vw;
+        padding-left: 3rem;
+
+        .box{
+            height: 120px;
+            width: 120px;
+            border-radius: 4px;
+            position: relative;
+        }
+        .cor{
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-2{
+            background-color: blue;
+        }
+
+
+        .box-3{
+            background-color: green;
+            position: absolute;
+            z-index: 1;
+
+        }
+        .box-4{
+            background-color: orange;
+        }
+        .ghost{
+            background-color: gray;
+        }
+    }
+
+    .section-1{
+        background: rgb(241, 230, 82);
+    }
+    .section-2{
+        background: rgb(82, 241, 228);
+    }
+    .section-3{
+        background: rgb(82, 106, 241);
+    }
+    .section-4{
+        background: rgb(241, 82, 82);
+    }
+}
